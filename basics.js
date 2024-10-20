@@ -22,11 +22,11 @@ function isPalindrome(str) {
 /*Write a program that prints the numbers from 1 to 100. For multiples of 3, print "Fizz" instead of the number, and for multiples of 5, print "Buzz." For numbers that are multiples of both 3 and 5, print "FizzBuzz."*/
 function fizzBuzz() {
     // Your code here
-    for(var i=1;i<=100;i++){
-        if(i%3==0){
+    for (var i = 1; i <= 100; i++) {
+        if (i % 3 == 0) {
             console.log("Fizz")
         }
-        else{
+        else {
             console.log(i)
         }
     }
@@ -34,6 +34,8 @@ function fizzBuzz() {
 }
 
 // Example usage:
-fizzBuzz(); // Should print 1, 2, Fizz, 4, Buzz, Fizz, ...
-
+//fizzBuzz(); // Should print 1, 2, Fizz, 4, Buzz, Fizz, ...
+let cat = "oliver";
+cat = "andy";
+console.log(cat)
 
